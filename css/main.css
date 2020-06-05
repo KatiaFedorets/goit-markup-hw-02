@@ -50,7 +50,7 @@ body {
     line-height: 1.1;
     letter-spacing: 0.02em
 }
-.nav-link:hover{
+.nav-link:hover .nav-link:focus {
     color: var(--accent-text-color);
 }
 
@@ -82,7 +82,7 @@ body {
     color: var(--accent-text-color);
 }
 
-.nav-link:focus {
+.contact-list:focus {
     color: var(--accent-text-color);
 }
 /*  вопрос к ментору : не могу понять по чему ховер и фокус не работают в этом класе*/
@@ -190,6 +190,57 @@ body {
     text-align: center;
 }
 
+/*Портфолио*/
+
+.radio-btn {
+    background: #F5F4FA;
+}
+
+.radio-btn:hover {
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+}
+
+.radio-btn:focus {
+    background-color: var(--accent-text-color);
+}
+
+
+.portfolio-link {
+    color: var(--white-color);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+}
+
+.portfolio-title {
+    color: var(--title-text-color);
+
+    font-weight:700;
+    line-height: 2;
+    letter-spacing: 0.06em
+}
+
+.portfolio-category {
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.portfolio-text {
+    background-color: rgba(33, 150, 243, 0.9);
+}
+
+
+
+    /*Футер*/
 .logo-footer {
     color:  var(--white-color);
     background-color: #2F303A;
@@ -231,8 +282,7 @@ body {
     text-align: center;
 }
 
-.portfolio-link {
-    text-decoration: none;
-}
+    
+
 
 
