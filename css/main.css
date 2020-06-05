@@ -62,6 +62,10 @@ body {
     color: var(--accent-text-color);
 }
 
+.portfolio {
+    color: var(--accent-text-color);
+}
+
 .contact-list {
     color: var(--text-color);
     text-decoration: none;
