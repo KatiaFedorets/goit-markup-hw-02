@@ -1,0 +1,232 @@
+:root {
+    --text-color:#757575;
+    --title-text-color: #212121;
+    --accent-text-color:  #2196F3;
+    --white-color: #FFFFFF;
+}
+body {
+    background-color: var(--white-color);
+    color: var(--text-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    
+
+}
+
+
+/* главный логитип */
+
+.logo-header {
+    color:  #000000;
+
+    font-family: Raleway, sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+}
+
+.logo-blue {
+    color: var(--accent-text-color);
+}
+
+.nav-link  {
+    color: var(--text-color);
+
+    text-decoration: none;
+    list-style: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em
+}
+.nav-link:hover{
+    color: var(--accent-text-color);
+}
+
+.nav-link:focus {
+    color: var(--accent-text-color);
+}
+
+.studio {
+    color: var(--accent-text-color);
+}
+
+.contact-list {
+    color: var(--text-color);
+    text-decoration: none;
+    list-style: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+}
+
+.contact-list:hover {
+    color: var(--accent-text-color);
+}
+
+.nav-link:focus {
+    color: var(--accent-text-color);
+}
+/*  вопрос к ментору : не могу понять по чему ховер и фокус не работают в этом класе*/
+
+
+.contact-mailo {
+   color: var(--accent-text-color);
+
+   text-decoration: none; /* с селектре contact-list не ратобает, в contact-mailo все работает. тоже не могу понять по чему*/
+
+}
+
+.contact-mailo:hover {
+    color:  var(--accent-text-color);
+}
+
+.contact-mailo:focus {
+    color:  var(--accent-text-color); 
+}
+
+.contact-tel {
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+
+.contact-tel:hover {
+    color:  var(--accent-text-color);
+}
+
+.contact-tel:focus {
+    color:  var(--accent-text-color); 
+}
+
+.hero-title {
+    color: var(--white-color);
+    background-color: brown;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    color: var(--white-color);
+    background-color: var(--accent-text-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center; /* не применилась , не понимаю по чему*/
+    letter-spacing: 0.06em;
+
+    text-decoration: none;
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.link {
+    list-style: none;
+}
+
+.features-title {
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+
+}
+
+.text {
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+
+.team-title {
+    color: var(--title-text-color);
+    text-align: center;
+
+}
+
+.team-role {
+    text-align: center;
+}
+
+.logo-footer {
+    color:  var(--white-color);
+    background-color: #2F303A;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+
+}
+
+.address {
+    color: var(--white-color);
+    background-color: #2F303A;
+    font-style: normal;
+
+}
+
+.address-contacts {
+    color:  rgba(255, 255, 255, 0.6);
+}
+
+.action {
+    color: var(--white-color);
+    background-color: #2F303A; 
+
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+
+.copyright {
+    color: rgba(255, 255, 255, 0.4);
+    background-color: #2F303A; 
+
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}
+
+
+
+
