@@ -19,19 +19,26 @@ body {
 
 }
 
+a{
+    text-decoration: none;
+}
 
+li {
+    list-style:  none;
+}
+address {
+    font-style: inherit;
+}
 /* главный логитип */
 
 .logo-header {
     color:  #000000;
 
     font-family: Raleway, sans-serif;;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+ 
     
 }
 
@@ -41,19 +48,15 @@ body {
 
 .nav-link  {
     color: var(--text-color);
-
-    text-decoration: none;
-    list-style: none;
-
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em
 }
-.nav-link:hover .nav-link:focus {
+.nav-link:hover {
     color: var(--accent-text-color);
 }
-
 .nav-link:focus {
     color: var(--accent-text-color);
 }
@@ -66,55 +69,21 @@ body {
     color: var(--accent-text-color);
 }
 
-.contact-list {
+.contact-list a {
     color: var(--text-color);
-    text-decoration: none;
-    list-style: none;
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
 
 }
 
-.contact-list:hover {
+.contact-list a:hover {
     color: var(--accent-text-color);
 }
 
-.contact-list:focus {
+.contact-list a:focus {
     color: var(--accent-text-color);
-}
-/*  вопрос к ментору : не могу понять по чему ховер и фокус не работают в этом класе*/
-
-
-.contact-mailo {
-   color: var(--accent-text-color);
-
-   text-decoration: none; /* с селектре contact-list не ратобает, в contact-mailo все работает. тоже не могу понять по чему*/
-
-}
-
-.contact-mailo:hover {
-    color:  var(--accent-text-color);
-}
-
-.contact-mailo:focus {
-    color:  var(--accent-text-color); 
-}
-
-.contact-tel {
-    color: var(--text-color);
-    text-decoration: none;
-
-}
-
-.contact-tel:hover {
-    color:  var(--accent-text-color);
-}
-
-.contact-tel:focus {
-    color:  var(--accent-text-color); 
 }
 
 .hero-title {
@@ -129,7 +98,7 @@ body {
     text-transform: uppercase;
 }
 
-.hero-btn {
+a.hero-btn  {
     color: var(--white-color);
     background-color: var(--accent-text-color);
 
@@ -141,7 +110,6 @@ body {
     text-align: center; /* не применилась , не понимаю по чему*/
     letter-spacing: 0.06em;
 
-    text-decoration: none;
 
 }
 
@@ -150,10 +118,6 @@ body {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-}
-
-.link {
-    list-style: none;
 }
 
 .features-title {
@@ -208,15 +172,11 @@ body {
 
 .portfolio-link {
     color: var(--white-color);
-    
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
     letter-spacing: 0.03em;
 
-    text-decoration: none;
 }
 
 .portfolio-title {
@@ -245,7 +205,6 @@ body {
     color:  var(--white-color);
     background-color: #2F303A;
     font-family: Raleway, sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 1.2;
@@ -255,7 +214,6 @@ body {
 .address {
     color: var(--white-color);
     background-color: #2F303A;
-    font-style: normal;
 
 }
 
